@@ -82,6 +82,6 @@ The best case for binary search is when key matches the middle index(left + righ
 **For linear search, it almost match the results as time results and input number are positively linear corelated, which represent O(n). For binary search, it doesn't match results since each results are almost same. I guess that's because the computer performance is good and input number is too samll to see a difference.**
 
 - [ ] 10. Binary search assumes the input list is already sorted. Assume it takes $\Theta(n^2)$ time to sort a list of length $n$. Suppose you know ahead of time that you will search the same list $k$ times. 
-  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **k*n**
-  + For binary search? **k*log_2(n)**
+  + What is worst-case complexity of searching a list of $n$ elements $k$ times using linear search? **O(k*n)**
+  + For binary search? **O(k*log_2(n))**
   + For what values of $k$ is it more efficient to first sort and then use binary search versus just using linear search without sorting? **k is greater than n^2/(n-log_2(n))**
